@@ -1,0 +1,3 @@
+class Pay:
+
+    id = int
