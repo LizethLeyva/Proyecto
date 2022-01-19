@@ -6,4 +6,8 @@ public class Carro {
     String licencia;
     String conductor;
     Integer pasajeros;
+
+    void ImprimirInfo(){
+        System.out.println(id+" "+licencia+" "+conductor+" "+pasajeros);
+    }
 }
