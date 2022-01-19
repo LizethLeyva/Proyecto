@@ -1,7 +1,9 @@
+from carro import Carro
 
-from ast import If
-from unicodedata import name
-
-
-if name == "main":
+if __name__ == "__main__":
     print ("Hola mundo")
+    carro = Carro()
+    carro.conductor = 'Diego Gay'
+    carro.licencia = "TRE896"
+    print(vars(carro))
+
