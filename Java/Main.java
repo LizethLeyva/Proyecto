@@ -6,12 +6,9 @@ public class Main {
 
         System.out.println("Mundo cruel :v");
 
-        Carro carro = new Carro();
+        Carro carro = new Carro("HYU896", new Persona("Adrian Re Gay","HYU896"));
         carro.id = 1;
-        carro.conductor = "Adrian Re Gay";
-        carro.licencia = "HYU896";
         carro.pasajeros = 5;
-
         carro.ImprimirInfo();
     }
     

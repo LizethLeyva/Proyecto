@@ -1,8 +1,10 @@
-function Persona() {
-    
-    this.id;
-    this.nombre;
-    this.documento;
-    this.email;
-    this.contraseña;
+class Persona {
+
+    constructor(nombre, documento) {
+        this.id;
+        this.nombre = nombre;
+        this.documento = documento;
+        this.email;
+        this.contraseña;
+    }
 }

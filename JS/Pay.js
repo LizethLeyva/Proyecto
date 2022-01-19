@@ -1,5 +1,7 @@
-function Pay() {
+class Pay {
+    constructor() {
+        this.Payid;
+    }
 
-    this.Payid;
-    
+
 }

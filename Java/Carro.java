@@ -1,13 +1,18 @@
 package Java;
 
 public class Carro {
-    
+
     Integer id;
     String licencia;
-    String conductor;
+    Persona conductor;
     Integer pasajeros;
 
-    void ImprimirInfo(){
-        System.out.println(id+" "+licencia+" "+conductor+" "+pasajeros);
+    public Carro(String licencia, Persona conductor) {
+        this.licencia = licencia;
+        this.conductor = conductor;
+    }
+
+    void ImprimirInfo() {
+        System.out.println(id + " " + licencia + " " + conductor + " " + pasajeros);
     }
 }
