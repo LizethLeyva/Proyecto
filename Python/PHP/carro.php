@@ -18,8 +18,4 @@ class Carro{
         echo " Licencia: $this->licencia, Conductor: {$this->conductor->nombre}, Documento: {$this->conductor->documento}";
 
     }
-
-    public function getPasajeros(){
-        return $this->pasajeros;
-    }
 }
